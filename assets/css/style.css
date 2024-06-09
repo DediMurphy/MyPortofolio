@@ -18,13 +18,23 @@ body {
 body::before {
   content: '';
   position: fixed;
-  background: #010e1b;
+  background: #000000;
   background-size: cover;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
 }
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
 
 @media (min-width: 1024px) {
   body::before {
@@ -90,7 +100,7 @@ h6 {
 }
 
 #header h2 span {
-  color: #12d640;
+  color: #1D24CA;
   text-decoration: none;
 }
 
@@ -124,7 +134,7 @@ h6 {
 }
 
 #header .social-links a:hover {
-  background: #1c7d32;
+  background: #1D24CA;
 }
 
 @media (max-width: 992px) {
@@ -194,7 +204,7 @@ h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #9e7f25;
+  background-color: #1D24CA;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -210,7 +220,7 @@ h6 {
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #12d640;
+  color: #1D24CA;
   text-decoration: none;
 }
 
